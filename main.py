@@ -120,7 +120,7 @@ async def check_ban_command(ctx):
                 f"**• {'Status' if lang == 'en' else 'Statut'} :** "
                 f"{'No sufficient evidence of cheat usage on this account.' if lang == 'en' else 'Aucune preuve suffisante pour confirmer l’utilisation de hacks sur ce compte.'}\n"
                 f"**• {'Nickname' if lang == 'en' else 'Pseudo'} :** `{nickname}`\n"
-                f"**• {'Player ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
+                f"**• {'PlayerS ID' if lang == 'en' else 'ID du joueur'} :** `{id_str}`\n"
                 f"**• {'Region' if lang == 'en' else 'Région'} :** `{region}`"
             )
             # embed.set_image(url="https://i.ibb.co/Kx1RYVKZ/notbanned.gif")
